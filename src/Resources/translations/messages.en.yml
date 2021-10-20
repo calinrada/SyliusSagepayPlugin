@@ -26,4 +26,7 @@ sbarbat_sylius_sagepay_plugin:
             abbreviation field and select that option here.
         province_code: Use the Unique Code Field
         province_abbreviation: Use the Abbreviation
+        currency: Currency
+        currencies:
+            GBP: GBP
         

@@ -22,6 +22,12 @@ final class SagepayFormGatewayConfigurationType extends AbstractType
                 ],
                 'label' => 'sbarbat_sylius_sagepay_plugin.ui.mode',
             ])
+            ->add('currency', ChoiceType::class, [
+                'choices' => [
+                    'sbarbat_sylius_sagepay_plugin.ui.currencies.GBP' => true,
+                ],
+                'label' => 'sbarbat_sylius_sagepay_plugin.ui.currency',
+            ])
             ->add('vendorName', TextType::class, [
                 'label' => 'sbarbat_sylius_sagepay_plugin.ui.vendor_name',
                 'constraints' => [
